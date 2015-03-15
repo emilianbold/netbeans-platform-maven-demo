@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Tools">
+            <file name="ro-emilianbold-nbmagazine-tutorial-ShowService.instance"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <file name="ro-emilianbold-nbmagazine-tutorial-ShowService.shadow">
+                <attr name="originalFile" stringvalue="Actions/Tools/ro-emilianbold-nbmagazine-tutorial-ShowService.instance"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

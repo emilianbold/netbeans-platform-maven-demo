@@ -1,0 +1,2 @@
+OpenIDE-Module-Layer: ro/emilianbold/nbmagazine/tutorial/layer.xml
+

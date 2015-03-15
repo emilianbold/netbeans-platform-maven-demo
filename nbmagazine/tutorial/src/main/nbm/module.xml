@@ -1,0 +1,9 @@
+<nbm>
+   <moduleType>normal</moduleType>
+   <codeNameBase>ro.emilianbold.nbmagazine.tutorial/1</codeNameBase>
+   <cluster>nbmagazine</cluster>
+   <manifest>src/main/nbm/manifest.mf</manifest>
+   <distributionUrl>http://emilianbold.ro/nbmagazine/</distributionUrl>
+   <licenseName>GNU GPL 3</licenseName>
+   <licenseFile>src/main/nbm/license.txt</licenseFile>
+</nbm>

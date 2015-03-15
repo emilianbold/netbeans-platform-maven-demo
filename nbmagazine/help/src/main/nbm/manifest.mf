@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Layer: ro/emilianbold/nbmagazine/tutorial/help/layer.xml
+OpenIDE-Module-Requires: org.netbeans.api.javahelp.Help
+

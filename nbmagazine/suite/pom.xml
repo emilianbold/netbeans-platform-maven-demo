@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ro.emilianbold.nbmagazine</groupId>
+    <artifactId>suite</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>suite</name>  
+    <modules>
+        <module>../help</module>
+        <module>../tutorial</module>
+        <module>../branding</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>nbm-maven-plugin</artifactId>
+                <version>LATEST</version>
+                <extensions>true</extensions>
+                <inherited>false</inherited>
+                <configuration>
+                    <keystorealias>nbmagazine</keystorealias>
+                    <brandingToken>nbmagazine</brandingToken>
+                    <enabledClusters>
+                        <enabledCluster>platform7</enabledCluster>
+                        <enabledCluster>nbmagazine</enabledCluster>
+                    </enabledClusters>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>cluster</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>cluster</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
